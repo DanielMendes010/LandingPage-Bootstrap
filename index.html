@@ -8,7 +8,17 @@
     <title>Bootstrap</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous"
+  />
+  <style>
+    .fa-linkedin{
+      font-size: 40px;
+    }
+  </style>
   </head>
 
   <body>
@@ -36,6 +46,12 @@
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Eventos</a>
               </div>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="https://fontawesome.com/v4.7/">Entrevistas <span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Parcerias <span class="sr-only">(página atual)</span></a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -70,14 +86,135 @@
       </div>
       <!--/Carousel-->
 
-      <!--jumbotron-->
+      <!--Jumbotron-->
       <div class="jumbotron">
         <h1 class="display-4">Quer divulgar seu trabalho?</h1>
         <p class="lead">Você tem uma banda ou é um artista independente e gostaria de participar de nossos eventos?</p>
         <hr class="my-4">
-        <p>Todo mês realizamos de 2 a 3 vestivais de música pelo Brasil...</p>
+        <p>Todo mês realizamos de 2 a 3 festivais de música pelo Brasil...</p>
         <a class="btn btn-primary btn-lg" href="#" role="button">Leia mais</a>
       </div>
+      <!--/Jumbotron-->
+
+      <!--Card-->
+      <div class=>
+        <div class="card-columns">
+      <div class="card mb-3">
+        <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Título do card</h5>
+          <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
+          <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+          <a href="#" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img class="card-img-bottom" src=".../100px180/" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Título do card</h5>
+          <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
+          <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+          <a href="#" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img class="card-img-bottom" src=".../100px180/" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Título do card</h5>
+          <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
+          <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+          <a href="#" class="btn btn-primary">Visitar</a>
+        </div>
+    </div>
+  </div>
+      <!--/Card-->
+
+      <!--Texto e Video-->
+      <div class="row mt-5 mb-5">
+        <div class="container col-md-6">
+        <h3>Mano Brown lança seu podcast</h3>
+          <p>A lenda do rap nacional, lançou nessa última segunda seu novo podcast
+            o mano a mano. Com o propósito de gerar debate saudável de ideias e pessoas
+            com ponto de vista diferentes, já na estréia de seu programa ele recebeu
+            a cantora Karol Conka como sua primeira entrevistada. A entrevista completa
+            está disponivel no Spotify.
+          </p>
+        </div>
+        <div class="col-md-5 container">
+          <iframe src="https://open.spotify.com/embed/episode/27XkW9BQhnlKEYRvrXLoF8" 
+          width="100%" 
+          height="232" 
+          frameborder="0" 
+          allowtransparency="true" 
+          allow="encrypted-media">
+        </iframe>
+        </div>
+      </div>
+      <!--Texto e Video-->
+
+      <!--Formulário de contato-->
+      <div class="row mb-5">
+        <div class="col-md-12">
+          <h4 class="text-center">
+            Entre em contato com a gente
+          </h4>
+          </div>
+        </div>
+
+        <div class="row d-flex align-items-center">
+          <div class="col-md-6">
+            <form class="container">
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Endereço de email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+              </div>
+
+              <div class="form-group">
+              <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+
+              <div class="form-group d-flex justify-content-end">
+              <button class="btn btn-outline-success">Enviar</button>
+              </div>
+            </form>
+          </div>
+
+    <div class="col-md-5 container">
+      <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.4394954982645!2d-46.76390358538143!3d-23.660236071135355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce53cf506d2883%3A0xc62ab817506f8b13!2sCasa%20do%20Zezinho!5e0!3m2!1spt-BR!2sbr!4v1632332999098!5m2!1spt-BR!2sbr" 
+      width="300" 
+      height="250" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy">
+    </iframe>
+    </div>
+  </div>
+      <!--/Formulário de contato-->
+
+      <!--Rodapé-->
+      <hr>
+      <footer>
+        <div class="row mb-3">
+          <div class="col-md-12 d-flex justify-content-center">
+            <a href="https://www.linkedin.com/in/daniel-mendes-692a8516b/" target="_blank" class="p-3">
+              <i class="fa fa-linkedin text-dark" area-hidden="true">
+              </i>
+            </a>
+          </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <p class="text-center">
+                Todos os direitos reservados: Daniel Mendes &copy
+              </p>
+            </div>
+          </div>
+      </footer>
+    </div>
+      <!--/Rodapé-->
+
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
